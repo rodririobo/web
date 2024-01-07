@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bienbenido a Jekyll!"
-date:   2024-01-08 00:04:05 +0100
+date:   2024-01-07 00:04:05 +0100
 categories: jekyll update
 ---
 Tu encontraras el contenido en el directorio `_posts`. esto es una prueba de cambios en la web. Puede reconstruir el sitio de muchas maneras diferentes, pero la forma más común es ejecutar "jekyllserve", que inicia un servidor web y regenera automáticamente su sitio cuando se actualiza un archivo.
