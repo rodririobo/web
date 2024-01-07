@@ -2,7 +2,7 @@
 layout: post
 title:  "Bienbenido a Jekyll!"
 date:   2024-01-07 23:44:22 +0100
-categories: jekyll update
+categories: jekyll Actualizado
 ---
 Encontrarás esta publicación en tu directorio `_posts`. Continúe, edítelo y reconstruya el sitio para ver los cambios. Puede reconstruir el sitio de muchas maneras diferentes, pero la forma más común es ejecutar "jekyllserve", que inicia un servidor web y regenera automáticamente su sitio cuando se actualiza un archivo.
 Jekyll requiere que los archivos de publicaciones de blog tengan nombres de acuerdo con el siguiente formato:
