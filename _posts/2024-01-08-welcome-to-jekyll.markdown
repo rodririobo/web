@@ -14,7 +14,7 @@ Eche un vistazo a la fuente de esta publicación para tener una idea de cómo fu
 
 Jekyll también ofrece un potente soporte para fragmentos de código:
 
-{% resaltar rubí %}
+{% highlight ruby %}
 def print_hola(nombre)
   pone "Hola, #{nombre}"
 fin
