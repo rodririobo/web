@@ -1,5 +1,5 @@
 ---
-layout: Publicaciones
+layout: posts
 title:  "Bienbenido a Jekyll!"
 date:   2024-01-07 00:04:05 +0100
 categories: jekyll update
