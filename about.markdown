@@ -12,6 +12,3 @@ Puedes encontrar el código fuente de Minima en GitHub:
 Puedes encontrar el código fuente de Jekyll en GitHub:
 [jekyll][organización-jekyll] /
 [jekyll](https://github.com/jekyll/jekyll)
-
-
-[organización-jekyll]: https://github.com/jekyll
