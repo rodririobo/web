@@ -21,7 +21,7 @@
 title: Blog de Rodririobo
 email: rodririobo@mail.com
 description: >- # this means to ignore newlines until "baseurl:"
- Escriba una descripción impresionante para su nuevo sitio aquí. Puedes editar esto
+  Escriba una descripción impresionante para su nuevo sitio aquí. Puedes editar esto
   línea en _config.yml. Aparecerá en el meta del encabezado de su documento (por
   Resultados de búsqueda de Google) y en la descripción de su sitio feed.xml.
 baseurl: "" # the subpath of your site, e.g. /blog
