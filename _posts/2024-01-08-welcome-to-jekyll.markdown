@@ -14,13 +14,13 @@ Eche un vistazo a la fuente de esta publicación para tener una idea de cómo fu
 
 Jekyll también ofrece un potente soporte para fragmentos de código:
 
-{% highlight ruby %}
+```ruby 
 def print_hola(nombre)
   pone "Hola, #{nombre}"
 fin
 print_hi('Tom')
 #=> imprime 'Hola, Tom' en STDOUT.
-{% endhighlight %}
+``````
 
 Consulte los [documentos de Jekyll][jekyll-
 docs] para obtener más información sobre cómo aprovechar Jekyll al máximo. Presente todos los errores/solicitudes de funciones en [repositorio GitHub de Jekyll] [jekyll-gh]. Si tiene preguntas, puede hacerlas en [Jekyll Talk][jekyll-talk].
