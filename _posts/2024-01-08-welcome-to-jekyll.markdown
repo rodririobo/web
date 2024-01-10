@@ -16,7 +16,7 @@ Jekyll también ofrece un potente soporte para fragmentos de código:
 
 {% highlight python %}
    def hello_world():
-       print("¡Hola, mundo!")
+       print ("¡Hola, mundo!")
 
    hello_world()
    {% endhighlight %}
