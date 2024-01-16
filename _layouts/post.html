@@ -17,12 +17,15 @@ layout: default
             {% if page.subtitle %}
             <h2 class="subheading">{{ page.subtitle }}</h2>
             {% endif %}
-            <span class="meta">publicado el
+            <span class="meta">Publicado el 
               <a href="#">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a>
-              {{ page.date | date: "%d de %B de %Y" }} &middot; {% include read_time.html
+              {{ page.date | date: "%-d" }} de {% capture mes %}{{ page.date | date: "%B" }}{% endcapture %}{% assign mes = mes | downcase %}{% case mes %}{% when "january" %}enero{% when "february" %}febrero{% when "march" %}marzo{% when "april" %}abril{% when "may" %}mayo{% when "june" %}junio{% when "july" %}julio{% when "august" %}agosto{% when "september" %}septiembre{% when "october" %}octubre{% when "november" %}noviembre{% when "december" %}diciembre{% endcase %}{{ page.date | date: " de %Y" }}
+ &middot; {% include read_time.html
               content=page.content %}
-            </span>
+            </span><br>
             
+            </div>
+
 
           </div>
         </div>
