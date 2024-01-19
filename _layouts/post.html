@@ -19,7 +19,7 @@ layout: default
             {% endif %}
             <span class="meta">Publicado el 
               <a href="#">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a>
-              {% include fecha.html fecha=page.date %} &middot; {% include read_time.html
+              {% include fecha.html fecha=post.date %} &middot; {% include read_time.html
               content=page.content %}
 
             </span><br>
