@@ -1,0 +1,8 @@
+{% capture fecha_esp %}
+  {% assign formatted_date = include.fecha | date: "%Y-%m-%d" %}
+  {% assign d = formatted_date | date: "%w" | minus: 0 %}
+  {{ site.data.es.days[d] }} {{ formatted_date | date: "%-d" }} de
+  {% assign m = formatted_date | date: "%-m" | minus: 1 %}
+  {{ site.data.es.months[m] }} de {{ formatted_date | date: "%Y" }}
+{% endcapture %}
+{{ fecha_esp }}

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "¡Bienvenidos a Jekyll!"
-date:   "2024-01-08"
+date:   "2024-01-10"
 categories: jekyll update
 permalink: /posts/
 ---

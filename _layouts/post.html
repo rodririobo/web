@@ -19,11 +19,10 @@ layout: default
             {% endif %}
             <span class="meta">Publicado el 
               <a href="#">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a>
-              {{ page.date | date: "%-d" }} de {% capture mes %}{{ page.date | date: "%B" }}{% endcapture %}{% assign mes = mes | downcase %}{% case mes %}{% when "january" %}enero{% when "february" %}febrero{% when "march" %}marzo{% when "april" %}abril{% when "may" %}mayo{% when "june" %}junio{% when "july" %}julio{% when "august" %}agosto{% when "september" %}septiembre{% when "october" %}octubre{% when "november" %}noviembre{% when "december" %}diciembre{% endcase %}{{ page.date | date: " de %Y" }}
- &middot; {% include read_time.html
+              {% include fecha.html fecha=page.date %} &middot; {% include read_time.html
               content=page.content %}
+
             </span><br>
-            
             </div>
 
 
