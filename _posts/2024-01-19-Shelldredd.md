@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "¡Bienvenidos a contenido Shelldredd!"
+title:  "¡Bienvendios a contenido Shelldredd!"
 date:   "2024-01-19"
 categories: jekyll update
-permalink: /posts/
+
 ---
 
-## Contenido Shelldredd
+## Bienvenidos contenido Shelldredd
 
 Encontrarás esta publicación en tu directorio `_posts`. Continúe, edítelo y reconstruya el sitio para ver los cambios. Puede reconstruir el sitio de muchas maneras diferentes, pero la forma más común es ejecutar "jekyllserve", que inicia un servidor web y regenera automáticamente su sitio cuando se actualiza un archivo.
 Jekyll requiere que los archivos de publicaciones de blog tengan nombres de acuerdo con el siguiente formato:
