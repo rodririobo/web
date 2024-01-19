@@ -28,4 +28,4 @@ docs] para obtener más información sobre cómo aprovechar Jekyll al máximo. P
 
 [documentos jekyll]: https://jekyllrb.com/docs/home
 [jekyll-gh]: https://github.com/jekyll/jekyll
-[jekyll-charla]: https://talk.jekyllrb.com/
+[jekyll-talk]: https://talk.jekyllrb.com/
