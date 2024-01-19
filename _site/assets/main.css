@@ -9542,11 +9542,11 @@ header.masthead .post-heading .meta a {
 
   &::first-letter {
 
-text-transform: capitalize;
+    text-transform: capitalize;
+    
+      }
+  }
 
-  }  
-
-}
 .post-preview > .post-meta > a {
   text-decoration: none;
   color: #212529;
