@@ -16,9 +16,11 @@ Eche un vistazo a la fuente de esta publicación para tener una idea de cómo fu
 Jekyll también ofrece un potente soporte para fragmentos de código:
 
 ```python:
-   def hello_world():
+    
+       def hello_world():
        print ("¡Hola, mundo!")
        hello_world()
+
 ```
 
 Consulte los [documentos de Jekyll][jekyll-
