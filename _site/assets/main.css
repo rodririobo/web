@@ -9539,7 +9539,13 @@ header.masthead .post-heading .meta a {
   font-style: italic;
   margin-top: 0;
   color: #6c757d;
-  text-transform: capitalize;
+
+  &::first-letter {
+
+text-transform: capitalize;
+
+  }  
+
 }
 .post-preview > .post-meta > a {
   text-decoration: none;
